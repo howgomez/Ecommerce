@@ -65,7 +65,7 @@ function App() {
       )
     );
   }
-
+  console.log('App');
   const result = filteredData(products, selectCategory, query);
 
   return (
